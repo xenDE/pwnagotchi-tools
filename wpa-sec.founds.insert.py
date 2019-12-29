@@ -14,9 +14,8 @@
 import os
 from re import split
 
-potfile = os.path.dirname(os.path.realpath(__file__))+"/wpa-sec.founds.potfile"
 handshakesdir = "/root/handshakes"
-
+potfile = handshakesdir + '/wpa-sec.cracked.potfile'
 
 passwords = dict()
 
